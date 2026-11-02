@@ -1,0 +1,242 @@
+[
+  {
+    "id": "eval_01",
+    "category": "policy_qa",
+    "question": "Does HDFC ERGO Optima Secure have any room rent capping or ICU sub-limit for a 10 Lakh sum insured?",
+    "ground_truth": "No. Under HDFC ERGO Optima Secure (Clause 1.2), there is no room rent capping and no ICU daily sub-limit for any Sum Insured of Rs. 5 Lakhs and above. Insured members can occupy any room category at actuals without proportionate deduction.",
+    "expected_source": "HDFC_ERGO_Optima_Secure_Policy_Wording.pdf",
+    "expected_page": 1
+  },
+  {
+    "id": "eval_02",
+    "category": "policy_qa",
+    "question": "How does the Secure Benefit work in HDFC ERGO Optima Secure?",
+    "ground_truth": "Under Clause 1.1.1, the Secure Benefit doubles (adds 100% to) the Base Sum Insured instantly from Day 1 of policy inception at no extra cost. A Rs. 10 Lakh base policy immediately provides Rs. 20 Lakh coverage.",
+    "expected_source": "HDFC_ERGO_Optima_Secure_Policy_Wording.pdf",
+    "expected_page": 1
+  },
+  {
+    "id": "eval_03",
+    "category": "policy_qa",
+    "question": "Are non-medical consumables like surgical gloves and nebulization kits covered in HDFC ERGO Optima Secure?",
+    "ground_truth": "Yes. Clause 1.3.1 (Protect Benefit) is an in-built feature in HDFC ERGO Optima Secure that pays 100% for all 68 IRDAI Annexure-I non-payable consumable items during admissible inpatient hospitalization.",
+    "expected_source": "HDFC_ERGO_Optima_Secure_Policy_Wording.pdf",
+    "expected_page": 1
+  },
+  {
+    "id": "eval_04",
+    "category": "policy_qa",
+    "question": "What is the waiting period for pre-existing diseases like diabetes and hypertension in HDFC ERGO Optima Secure?",
+    "ground_truth": "Under Clause 2.1.3 (Code Excl01), Pre-Existing Diseases (PED) such as Diabetes Mellitus and Hypertension have a waiting period of 36 months of continuous coverage from policy inception.",
+    "expected_source": "HDFC_ERGO_Optima_Secure_Policy_Wording.pdf",
+    "expected_page": 2
+  },
+  {
+    "id": "eval_05",
+    "category": "policy_qa",
+    "question": "What is the cataract and hernia waiting period under HDFC ERGO Optima Secure?",
+    "ground_truth": "Under Clause 2.1.2 (Code Excl02), specific listed illnesses and surgeries including Cataract and Hernia have a 24-month continuous coverage waiting period.",
+    "expected_source": "HDFC_ERGO_Optima_Secure_Policy_Wording.pdf",
+    "expected_page": 2
+  },
+  {
+    "id": "eval_06",
+    "category": "policy_qa",
+    "question": "Does HDFC ERGO Optima Secure cover maternity expenses?",
+    "ground_truth": "No. Under Clause 2.1.4, HDFC ERGO Optima Secure does not cover maternity or childbirth expenses under the base policy (except ectopic pregnancy).",
+    "expected_source": "HDFC_ERGO_Optima_Secure_Policy_Wording.pdf",
+    "expected_page": 2
+  },
+  {
+    "id": "eval_07",
+    "category": "policy_qa",
+    "question": "What is the eligible room category in Star Health Comprehensive and when does proportionate deduction apply?",
+    "ground_truth": "Under Clause 1.1.1 and 1.1.2 of Star Health Comprehensive, the eligible room category is a Single Private A/C Room. If the insured chooses a higher room category (such as a Deluxe or Suite Room), proportionate deduction applies to all Associated Medical Expenses in the ratio of Eligible Room Rent to Actual Room Rent.",
+    "expected_source": "Star_Health_Comprehensive_Policy_Wording.pdf",
+    "expected_page": 1
+  },
+  {
+    "id": "eval_08",
+    "category": "policy_qa",
+    "question": "Which hospital bill items are exempt from proportionate deduction under Star Health Comprehensive?",
+    "ground_truth": "Under Clause 1.1.3 of Star Health Comprehensive, proportionate deduction is not applied to Pharmacy/Medicines, Implants/Stents, Diagnostics (if uniform tariff), or ICU charges.",
+    "expected_source": "Star_Health_Comprehensive_Policy_Wording.pdf",
+    "expected_page": 1
+  },
+  {
+    "id": "eval_09",
+    "category": "policy_qa",
+    "question": "What is the maternity waiting period and sub-limit in Star Health Comprehensive?",
+    "ground_truth": "Under Clause 2.1.1 of Star Health Comprehensive, maternity is covered after a 24-month waiting period when both self and spouse are insured under a floater plan. Normal delivery is capped at Rs. 30,000 to Rs. 50,000 and Caesarean section is capped at Rs. 40,000 to Rs. 1,00,000 depending on Sum Insured.",
+    "expected_source": "Star_Health_Comprehensive_Policy_Wording.pdf",
+    "expected_page": 2
+  },
+  {
+    "id": "eval_10",
+    "category": "policy_qa",
+    "question": "Can the 36-month PED waiting period be reduced in Star Health Comprehensive?",
+    "ground_truth": "Yes. Under Clause 2.1.3 of Star Health Comprehensive, an optional Buy-Back PED rider reduces the Pre-Existing Disease waiting period from 36 months to 12 months upon payment of additional premium.",
+    "expected_source": "Star_Health_Comprehensive_Policy_Wording.pdf",
+    "expected_page": 2
+  },
+  {
+    "id": "eval_11",
+    "category": "policy_qa",
+    "question": "Is there a mandatory senior citizen co-payment in Star Health Comprehensive?",
+    "ground_truth": "Yes. Under Clause 3.1.1 of Star Health Comprehensive, a mandatory 10% co-payment applies to each admissible claim for insured persons whose age at initial entry is 61 years or above.",
+    "expected_source": "Star_Health_Comprehensive_Policy_Wording.pdf",
+    "expected_page": 3
+  },
+  {
+    "id": "eval_12",
+    "category": "policy_qa",
+    "question": "How does ReAssure Forever restoration work in Niva Bupa ReAssure 2.0?",
+    "ground_truth": "Under Clause 1.1.1 of Niva Bupa ReAssure 2.0, ReAssure Forever triggers immediately after the first claim in a policy year and provides unlimited restorations (each up to 100% of Base Sum Insured) for both unrelated and same illnesses for the lifetime of the policy.",
+    "expected_source": "Niva_Bupa_ReAssure_2_0_Policy_Wording.pdf",
+    "expected_page": 1
+  },
+  {
+    "id": "eval_13",
+    "category": "policy_qa",
+    "question": "What is the Booster+ feature in Niva Bupa ReAssure 2.0?",
+    "ground_truth": "Under Clause 1.1.2, Booster+ carries forward any unutilized Base Sum Insured to the next policy year, accumulating up to 5X in Bronze+ and up to 10X in Platinum+.",
+    "expected_source": "Niva_Bupa_ReAssure_2_0_Policy_Wording.pdf",
+    "expected_page": 1
+  },
+  {
+    "id": "eval_14",
+    "category": "policy_qa",
+    "question": "What does the Safeguard+ rider cover in Niva Bupa ReAssure 2.0?",
+    "ground_truth": "Under Clause 2.1.5, Safeguard+ pays 100% for all IRDAI non-payable consumables (List I, II, III, IV) and protects the Booster+ bonus from reduction if total claims in a policy year are below Rs. 1,00,000.",
+    "expected_source": "Niva_Bupa_ReAssure_2_0_Policy_Wording.pdf",
+    "expected_page": 2
+  },
+  {
+    "id": "eval_15",
+    "category": "plan_comparison",
+    "question": "Compare Star Health Comprehensive and Niva Bupa ReAssure 2.0 on maternity waiting period and restoration benefits.",
+    "ground_truth": "Star Health Comprehensive covers maternity after a 24-month waiting period (up to Rs. 50,000 normal / Rs. 1,00,000 C-section) and provides 100% automatic restoration once per policy year. Niva Bupa ReAssure 2.0 does not cover maternity, but provides unlimited restoration (ReAssure Forever) from the first claim for both same and unrelated illnesses.",
+    "expected_source": "Star_Health_Comprehensive_Policy_Wording.pdf,Niva_Bupa_ReAssure_2_0_Policy_Wording.pdf",
+    "expected_page": 1
+  },
+  {
+    "id": "eval_16",
+    "category": "plan_comparison",
+    "question": "Compare HDFC ERGO Optima Secure and Star Health Comprehensive on room rent limits and consumables coverage.",
+    "ground_truth": "HDFC ERGO Optima Secure has no room rent cap (any room at actuals) and includes Protect Benefit (covering all 68 consumables) in-built. Star Health Comprehensive caps room eligibility at a Single Private A/C Room (applying proportionate deduction for higher rooms) and excludes the 68 consumables unless the optional Star Extra Protect rider is purchased.",
+    "expected_source": "HDFC_ERGO_Optima_Secure_Policy_Wording.pdf,Star_Health_Comprehensive_Policy_Wording.pdf",
+    "expected_page": 1
+  },
+  {
+    "id": "eval_17",
+    "category": "plan_comparison",
+    "question": "Compare senior citizen co-payment rules across HDFC ERGO Optima Secure, Star Health Comprehensive, and Niva Bupa ReAssure 2.0.",
+    "ground_truth": "HDFC ERGO Optima Secure and Niva Bupa ReAssure 2.0 have 0% mandatory age-based co-payment across all entry ages. Star Health Comprehensive enforces a mandatory 10% co-payment for policyholders entering at age 61 or above.",
+    "expected_source": "HDFC_ERGO_Optima_Secure_Policy_Wording.pdf,Star_Health_Comprehensive_Policy_Wording.pdf,Niva_Bupa_ReAssure_2_0_Policy_Wording.pdf",
+    "expected_page": 2
+  },
+  {
+    "id": "eval_18",
+    "category": "claim_calculation",
+    "question": "If my policy has an allowed room rent cap of Rs. 5,000/day, I choose a room costing Rs. 10,000/day, and my eligible associated medical bill is Rs. 1,00,000 with Rs. 10,000 deductible, what is my payable claim amount?",
+    "ground_truth": "Using the proportionate deduction formula: Payable before deductible = 1,00,000 * (5,000 / 10,000) = Rs. 50,000. Subtracting the Rs. 10,000 deductible leaves a net payable claim amount of Rs. 40,000 (and Rs. 60,000 out-of-pocket).",
+    "expected_source": "Star_Health_Comprehensive_Policy_Wording.pdf",
+    "expected_page": 1
+  },
+  {
+    "id": "eval_19",
+    "category": "claim_calculation",
+    "question": "Under Star Health Comprehensive, if Eligible Room Rent is Rs. 6,000/day, Actual Room Rent chosen is Rs. 9,000/day, Surgeon + OT charges are Rs. 90,000, and Pharmacy/Medicines cost Rs. 30,000, how much will the insurer pay?",
+    "ground_truth": "Surgeon + OT charges undergo proportionate deduction: 90,000 * (6,000 / 9,000) = Rs. 60,000. Under Clause 1.1.3, Pharmacy/Medicines (Rs. 30,000) are exempt from proportionate deduction and paid in full. Total payable for these components = Rs. 60,000 + Rs. 30,000 = Rs. 90,000.",
+    "expected_source": "Star_Health_Comprehensive_Policy_Wording.pdf",
+    "expected_page": 1
+  },
+  {
+    "id": "eval_20",
+    "category": "claim_calculation",
+    "question": "A 65-year-old who entered Star Health Comprehensive at age 62 has an admissible hospital bill of Rs. 2,00,000 in a Single Private A/C Room. How much is the mandatory co-payment deduction?",
+    "ground_truth": "Because the insured entered at age 62 (61 or above), a mandatory 10% co-payment applies under Clause 3.1.1. The co-payment deduction is 10% of Rs. 2,00,000 = Rs. 20,000, and the net payable claim is Rs. 1,80,000.",
+    "expected_source": "Star_Health_Comprehensive_Policy_Wording.pdf",
+    "expected_page": 3
+  },
+  {
+    "id": "eval_21",
+    "category": "regulatory_grievance",
+    "question": "What is the IRDAI 2024 Master Circular rule on the moratorium period for health insurance policies?",
+    "ground_truth": "Under Circular IRDAI/HLT/CIR/PRO/84/05/2024 (Clause 1.1), the moratorium period is 36 continuous months (3 years), reduced from 60 months. After 36 months of continuous coverage, no claim can be rejected by an insurer on grounds of non-disclosure or misrepresentation except in cases of proven fraud.",
+    "expected_source": "IRDAI_Master_Circular_Health_Insurance_2024.pdf",
+    "expected_page": 1
+  },
+  {
+    "id": "eval_22",
+    "category": "regulatory_grievance",
+    "question": "My insurer rejected my claim after 4 years of continuous policy renewals citing non-disclosure of hypertension at policy purchase. Is this legal under IRDAI rules?",
+    "ground_truth": "No. Since 4 years (48 months) exceeds the mandatory 36-month moratorium period under IRDAI Master Circular IRDAI/HLT/CIR/PRO/84/05/2024 (Clause 1.1), the insurer cannot repudiate the claim for alleged non-disclosure of hypertension unless it proves established fraud.",
+    "expected_source": "IRDAI_Master_Circular_Health_Insurance_2024.pdf",
+    "expected_page": 1
+  },
+  {
+    "id": "eval_23",
+    "category": "regulatory_grievance",
+    "question": "What are the mandatory IRDAI timelines for cashless pre-authorization and hospital discharge?",
+    "ground_truth": "Under IRDAI Master Circular IRDAI/HLT/CIR/PRO/84/05/2024 (Clauses 2.1 and 2.2), insurers must decide on cashless pre-authorization requests within 1 hour (60 minutes) and grant final discharge authorization within 3 hours (180 minutes) of receiving the discharge request from the hospital.",
+    "expected_source": "IRDAI_Master_Circular_Health_Insurance_2024.pdf",
+    "expected_page": 2
+  },
+  {
+    "id": "eval_24",
+    "category": "regulatory_grievance",
+    "question": "Who pays if the hospital charges extra room rent because the insurer took 7 hours to approve cashless discharge?",
+    "ground_truth": "Under Clause 2.3 of IRDAI Master Circular 2024, if the insurer delays discharge authorization beyond the mandatory 3-hour limit, any additional hospital bed/room charges must be paid directly by the insurer from its Shareholders' Fund and cannot be deducted from the policyholder's Sum Insured or billed to the patient.",
+    "expected_source": "IRDAI_Master_Circular_Health_Insurance_2024.pdf",
+    "expected_page": 2
+  },
+  {
+    "id": "eval_25",
+    "category": "regulatory_grievance",
+    "question": "Can a Third Party Administrator (TPA) reject a health insurance claim on its own?",
+    "ground_truth": "No. Under Clause 3.1 of IRDAI Master Circular 2024, no claim can be rejected directly by a TPA. Every claim repudiation requires explicit approval from the insurer's three-member Claims Review Committee (CRC).",
+    "expected_source": "IRDAI_Master_Circular_Health_Insurance_2024.pdf",
+    "expected_page": 3
+  },
+  {
+    "id": "eval_26",
+    "category": "regulatory_grievance",
+    "question": "What penalty applies if an insurer fails to honour an Insurance Ombudsman award within 30 days?",
+    "ground_truth": "Under Clause 3.3 of IRDAI Master Circular 2024, if an insurer fails to comply with an Insurance Ombudsman Award within 30 days, it must pay a penalty of Rs. 5,000 per day to the complainant plus penal interest at 2% above the prevailing bank rate.",
+    "expected_source": "IRDAI_Master_Circular_Health_Insurance_2024.pdf",
+    "expected_page": 3
+  },
+  {
+    "id": "eval_27",
+    "category": "regulatory_grievance",
+    "question": "What is the free look period under the IRDAI Master Circular 2024?",
+    "ground_truth": "Under Clause 1.2 (Table) of the IRDAI Master Circular 2024, policyholders get a 30-day Free Look Period from policy receipt to review terms and cancel for a 100% refund (subject to standard pro-rata risk/stamp duty adjustments if no claim was made).",
+    "expected_source": "IRDAI_Master_Circular_Health_Insurance_2024.pdf",
+    "expected_page": 1
+  },
+  {
+    "id": "eval_28",
+    "category": "policy_qa",
+    "question": "Can a hospital charge me separately for patient gown, laundry charges, and pulse oximeter probe?",
+    "ground_truth": "No. Under IRDAI Annexure-I (Items 24, 38, and 47), Patient Gown, Laundry Charges, and Pulse Oximeter Probe are classified as 'subsumed_in_room_charges'. They are included in the room/ICU tariff and cannot be billed separately to the patient.",
+    "expected_source": "IRDAI_Annexure_I_68_Non_Payable_Consumables.pdf",
+    "expected_page": 1
+  },
+  {
+    "id": "eval_29",
+    "category": "policy_qa",
+    "question": "How are surgical gloves (Item 56) and nebulization kits (Item 42) treated under IRDAI Annexure-I?",
+    "ground_truth": "Under IRDAI Annexure-I, Nebulization Kit (Item 42) and Surgical Gloves (Item 56) have status 'non_payable_unless_rider'. They are not payable under standard base policies without a consumables cover, but are 100% payable when the policy has a consumables rider (such as HDFC Protect Benefit, Niva Safeguard+, or Star Extra Protect).",
+    "expected_source": "IRDAI_Annexure_I_68_Non_Payable_Consumables.pdf",
+    "expected_page": 1
+  },
+  {
+    "id": "eval_30",
+    "category": "policy_qa",
+    "question": "Are admission kit and file charges (Item 68) payable or deductible from the patient?",
+    "ground_truth": "Under IRDAI Annexure-I (Item 68), Admission Kit / Discharge Kit / File Charges have status 'subsumed_in_room_charges'. They are hospital administrative overhead subsumed in room rent and cannot be charged separately to the patient.",
+    "expected_source": "IRDAI_Annexure_I_68_Non_Payable_Consumables.pdf",
+    "expected_page": 1
+  }
+]

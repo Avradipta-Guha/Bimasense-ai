@@ -1,0 +1,31 @@
+# ==============================================================================
+# BimaSense AI — Monorepo .gitignore (Python Backend + Android Studio Kotlin)
+# ==============================================================================
+
+# --- Environment & Secrets ---
+.env
+*.env.local
+
+# --- Python / FastAPI ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+.ruff_cache/
+
+# --- Qdrant Local Volume ---
+qdrant_storage/
+
+# --- Android / Gradle / IntelliJ ---
+android-app/.gradle/
+android-app/build/
+android-app/app/build/
+android-app/local.properties
+*.iml
+.idea/
+.DS_Store
+*.apk
+*.aab
